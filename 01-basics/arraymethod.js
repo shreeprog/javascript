@@ -1,8 +1,10 @@
 const myarr=[1,2,3,4,5];
+console.log(myarr);
 console.log(myarr[4]);
 //Array prototype.push()->
 //it is used to add a element in the last of the array.
 console.log(myarr.push(6));
+console.log(myarr);
 //Array prototype.pop()->
 //it is used to remove the last element of the array.
 console.log(myarr.pop());
