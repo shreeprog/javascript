@@ -62,3 +62,4 @@ const detailsOfCourse={
 console.log(detailsOfCourse);
 const {cfee:s}=detailsOfCourse;
 console.log(s);
+console.log(detailsOfCourse.cname);
