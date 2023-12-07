@@ -29,9 +29,4 @@ const hero=[...marvel_hero,...dc_hero];
 console.log(hero);
 //(...)->means spread operator
 //const action_hero=...dc_hero;
-let otherarr=[1,2,3,4,[5,6,7,[8,9,10]],11,12,[13,14,15],16];
-let otherarrList=otherarr.flat(Infinity);
-console.log(otherarrList);
-console.log(array.isarray("otherarr"));
-console.log(array.from("subha"));
 
