@@ -18,3 +18,6 @@ console.log(person1.location);
 console.log(Object.keys(person1));
 console.log(Object.values(person1));
 console.log(person1.hasOwnProperty("isLoggedIn"));
+console.log(Object.entries(person1));
+console.log(Object.entries(person));
+
