@@ -35,14 +35,17 @@ console.log(name.fullname.details.lname);
 //object in array
 const arrayObj=[
     {
+        name:"subha",
         id:121,
         location:"bbsr"
     },
     {
+        name:"shree",
         id:122,
         location:"cuttack"
     },
     {
+        name:"mishra",
         id:123,
         location:"jspur"
     },
@@ -50,3 +53,12 @@ const arrayObj=[
 console.log(arrayObj);
 console.log(arrayObj[2]);
 console.log(arrayObj[0]);
+//object de_structure-change the name of key values
+const detailsOfCourse={
+    cname:"javascript",
+    cfee:3000,
+    poweredby:"web_bocket",
+};
+console.log(detailsOfCourse);
+const {cfee:s}=detailsOfCourse;
+console.log(s);
