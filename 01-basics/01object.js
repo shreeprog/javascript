@@ -19,5 +19,16 @@ console.log(Object.keys(person1));
 console.log(Object.values(person1));
 console.log(person1.hasOwnProperty("isLoggedIn"));
 console.log(Object.entries(person1));
-console.log(Object.entries(person));
-
+console.log(Object.entries(person));//entries- all the key values to be show.
+//nested objects
+const name={
+    fullname:{
+        details:{
+            fname:"subha",
+            lname:"mishra"
+        }
+    }
+}
+console.log(name);
+console.log(name.fullname.details.fname);
+console.log(name.fullname.details.lname);
