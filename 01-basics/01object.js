@@ -32,3 +32,21 @@ const name={
 console.log(name);
 console.log(name.fullname.details.fname);
 console.log(name.fullname.details.lname);
+//object in array
+const arrayObj=[
+    {
+        id:121,
+        location:"bbsr"
+    },
+    {
+        id:122,
+        location:"cuttack"
+    },
+    {
+        id:123,
+        location:"jspur"
+    },
+]
+console.log(arrayObj);
+console.log(arrayObj[2]);
+console.log(arrayObj[0]);
