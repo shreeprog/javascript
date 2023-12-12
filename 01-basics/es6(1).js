@@ -17,6 +17,6 @@ console.log(mySet.delete(3))
 console.log(mySet)
 //how to check that element exist in the set or not
 console.log(mySet.has(10))
-//iteration in the set
+//iteration in the set(to show all the values)
 for(let values of mySet)
 console.log(values)
